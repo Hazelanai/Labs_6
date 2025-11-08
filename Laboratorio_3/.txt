@@ -1,0 +1,20 @@
+Inicio
+
+Variables: Num 1, Num2, Num3
+
+Escribir: "Ingrese los tres numeros"
+
+Leer: Num1, Num2, Num3
+
+Proceso:
+Si (Num1 > Num2) y (Num1 > Num3)
+Escritor: "El numero mayor es, Num1"
+
+Sino 
+Si(Num2 > Num1) y (Num2 > Num3)
+Escritor: "El numero mayor es, Num2"
+
+Sino
+Escritor: "El numero mayor es, Num3"
+
+Fin
