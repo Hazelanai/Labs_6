@@ -27,7 +27,7 @@ void ingresarDatos(Estudiante* lista, int cant) {
 
         cout << "Ingrese 5 notas" << endl;
         for (int j = 0; j < 5; j++) {
-            cout << "  Nota " << j + 1 << ": ";
+            cout << "Nota " << j + 1 << ": ";
             cin >> lista[i].notas[j];
         }
 
@@ -76,7 +76,7 @@ void buscarEstudiante(Estudiante* lista, int cant, string nom_buscar) {
                 cout << lista[i].notas[j] << " ";
             }
             cout << endl;
-            cout << "Direccion: " << lista[i].dir.nom_calle << " " 
+            cout << "Direccion " << lista[i].dir.nom_calle << " " 
                  << lista[i].dir.num_casa << ", "
                  << lista[i].dir.nom_ciudad << endl;
             cout << "-----------------------------" << endl;
